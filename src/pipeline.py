@@ -6,6 +6,7 @@ from ner_model import NERModel
 from sentiment_model import SentimentModel
 from collections import defaultdict
 import numpy as np
+import json
 
 # handle sentiment
 if not Span.has_extension("sentiment"):
@@ -63,17 +64,24 @@ class EntitySentimentModel:
         self.is_pipeline_built = False
         self.use_entity_ruler = None
 
-    def build_pipeline(self, use_entity_ruler: bool = True) -> None:
+    def build_pipeline(
+        self,
+        use_entity_ruler: bool = True,
+        pattern_paths=None,
+    ) -> None:
         """
         build the pipeline
         """
+        if pattern_paths is None:
+            pattern_paths = []
+
         # set self.use_entity_ruler
         self.use_entity_ruler = use_entity_ruler
 
         self.nlp = spacy.blank("en")
         self.add_ner_model()
         if use_entity_ruler:
-            self.add_entity_ruler()
+            self.add_entity_ruler(pattern_paths)
             self.add_alias_handler()
 
         self.add_sentiment_model()
@@ -234,7 +242,10 @@ class EntitySentimentModel:
         self.nlp.add_pipe(factory_name="custom_sentiment_model", last=True)
 
     # TODO: add extra patterns
-    def add_entity_ruler(self) -> None:
+    def add_entity_ruler(
+        self,
+        pattern_paths: list[str]
+    ) -> None:
         """
         add entity_ruler to the pipeline after NER Model
         """
@@ -247,13 +258,11 @@ class EntitySentimentModel:
             }
         )
         # Some example patterns
-        patterns = [
-            {"label": "club", "pattern": "PSG", "ignore_case": True},
-            {"label": "person", "pattern": "Messi", "id": "Lionel Messi"},
-            {"label": "club", "pattern": "Liverpool FC"},
-            {"label": "slang", "pattern": "You'll Never Walk Alone", "id": "YNWA"}
-        ]
-        ruler.add_patterns(patterns)
+        for path in pattern_paths:
+            with open(path, "r") as json_file:
+                patterns = json.load(json_file)
+            ruler.add_patterns(patterns)
+            ruler.add_patterns([{"label": "group", "pattern": "the gunners"}])
 
     def add_alias_handler(self):
         """
