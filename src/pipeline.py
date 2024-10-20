@@ -6,8 +6,20 @@ from ner_model import NERModel
 from sentiment_model import SentimentModel
 from collections import defaultdict
 import numpy as np
+
+# handle sentiment
 if not Span.has_extension("sentiment"):
-    Span.set_extension(name="sentiment", default=None)
+    Span.set_extension(
+        name="sentiment",
+        default=None
+    )
+
+# handle alias
+if not Span.has_extension("entity_id_"):
+    Span.set_extension(
+        name="entity_id_",
+        default=None
+    )
 
 
 class PipelineNotBuiltError(Exception):
@@ -49,15 +61,21 @@ class EntitySentimentModel:
         # pipeline
         self.nlp = None
         self.is_pipeline_built = False
+        self.use_entity_ruler = None
 
     def build_pipeline(self, use_entity_ruler: bool = True) -> None:
         """
         build the pipeline
         """
+        # set self.use_entity_ruler
+        self.use_entity_ruler = use_entity_ruler
+
         self.nlp = spacy.blank("en")
         self.add_ner_model()
         if use_entity_ruler:
             self.add_entity_ruler()
+            self.add_alias_handler()
+
         self.add_sentiment_model()
 
         self.is_pipeline_built = True
@@ -73,8 +91,17 @@ class EntitySentimentModel:
         results = []
         doc = self.nlp(text)
         for ent in doc.ents:
-            sentiment = ent._.sentiment
-            results.append({"entity": ent.text, "label": ent.label_, "sentiment": sentiment})
+            if self.use_entity_ruler:
+                entity_name = ent._.entity_id_
+            else:
+                entity_name = ent.text
+
+            results.append({
+                "label": ent.label_,
+                "entity": ent.text,
+                "entity_name": entity_name,
+                "sentiment": ent._.sentiment
+            })
 
         return results
 
@@ -105,7 +132,8 @@ class EntitySentimentModel:
             # Handle multiple sentiments for the same entity
             entity_sentiment_cnt = defaultdict(list)
             for prediction_dict in predictions:
-                entity = prediction_dict["entity"]
+                # use entity_name to merge alias results
+                entity = prediction_dict["entity_name"]
                 sentiment = label2id[prediction_dict["sentiment"]]
                 entity_sentiment_cnt[entity].append(sentiment)
 
@@ -220,7 +248,24 @@ class EntitySentimentModel:
         )
         # Some example patterns
         patterns = [
-            {"label": "ORG", "pattern": "PSG"},
-            {"label": "PERSON", "pattern": "Messi"}
+            {"label": "club", "pattern": "PSG", "ignore_case": True},
+            {"label": "person", "pattern": "Messi", "id": "Lionel Messi"},
+            {"label": "club", "pattern": "Liverpool FC"},
+            {"label": "slang", "pattern": "You'll Never Walk Alone", "id": "YNWA"}
         ]
         ruler.add_patterns(patterns)
+
+    def add_alias_handler(self):
+        """
+        wrapper for alias handler after add_entity_ruler()
+        """
+        @self.nlp.component("alias_handler")
+        def alias_handler(doc: Doc) -> Doc:
+            for ent in doc.ents:
+                if ent.ent_id_:
+                    ent._.entity_id_ = ent.ent_id_
+                else:
+                    ent._.entity_id_ = ent.text
+            return doc
+
+        self.nlp.add_pipe("alias_handler", after="entity_ruler")
