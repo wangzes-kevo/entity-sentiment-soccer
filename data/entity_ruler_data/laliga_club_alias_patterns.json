@@ -1,0 +1,206 @@
+[
+    {
+        "label": "group",
+        "pattern": "Babazorros",
+        "id": "Alaves",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "El Glorioso",
+        "id": "Alaves",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Athletic",
+        "id": "Athletic Club",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Colchoneros",
+        "id": "Atletico Madrid",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Mattress Makers",
+        "id": "Atletico Madrid",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Mattressmakers",
+        "id": "Atletico Madrid",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Barca",
+        "id": "Barcelona",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Blaugrana",
+        "id": "Barcelona",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Celta",
+        "id": "Celta de Vigo",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Periquitos",
+        "id": "Espanyol",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Blanquiazules",
+        "id": "Espanyol",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Azulones",
+        "id": "Getafe",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Blanquivermells",
+        "id": "Girona",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Gironistes",
+        "id": "Girona",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Los Amarillos",
+        "id": "Las Palmas",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "pepineros",
+        "id": "Leganes",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Bermellones",
+        "id": "RCD Mallorca",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Vermilions",
+        "id": "RCD Mallorca",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Mallorca",
+        "id": "RCD Mallorca",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Rojillos",
+        "id": "Osasuna",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Gorritxoak",
+        "id": "Osasuna",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Franjirrojos",
+        "id": "Rayo Vallecano",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Rayo",
+        "id": "Rayo Vallecano",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Betis",
+        "id": "Real Betis",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Verdiblancos",
+        "id": "Real Betis",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Beticos",
+        "id": "Real Betis",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Los Blancos",
+        "id": "Real Madrid",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Txuri-Urdin",
+        "id": "Real Sociedad",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Sociedad",
+        "id": "Real Sociedad",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Pucela",
+        "id": "Real Valladolid",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Valladolid",
+        "id": "Real Valladolid",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Sevillistas",
+        "id": "Sevilla",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Che",
+        "id": "Valencia",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Yellow Submarine",
+        "id": "Villarreal",
+        "ignore_case": true
+    }
+]

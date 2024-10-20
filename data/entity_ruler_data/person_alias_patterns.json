@@ -1,0 +1,146 @@
+[
+    {
+        "label": "person",
+        "pattern": "Messi",
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Leo",
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "LM10",
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "La Pulga Atomica",
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Cristiano",
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "CR7",
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "El Bicho",
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "El Nino",
+        "id": "Fernando Torres",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Kylian",
+        "id": "Kylian Mbappe",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Mbappe",
+        "id": "Kylian Mbappe",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Kun",
+        "id": "Sergio Aguero",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Aguero",
+        "id": "Sergio Aguero",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Ney",
+        "id": "Neymar JR",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Neymar",
+        "id": "Neymar JR",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Hulk",
+        "id": "Givanildo Vieira de Sousa",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "KDB",
+        "id": "Kevin De Bruyne",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Bruyne",
+        "id": "Kevin De Bruyne",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "VVD",
+        "id": "Virgil van Dijk",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "van Dijk",
+        "id": "Virgil van Dijk",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "El Fideo",
+        "id": "Di Maria",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Pep",
+        "id": "Pep Guardiola",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Guardiola",
+        "id": "Pep Guardiola",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Slabhead",
+        "id": "Harry Maguire",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": "Maguire",
+        "id": "Harry Maguire",
+        "ignore_case": true
+    }
+]

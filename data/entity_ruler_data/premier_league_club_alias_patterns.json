@@ -1,0 +1,218 @@
+[
+    {
+        "label": "group",
+        "pattern": "Cherries",
+        "id": "AFC Bournemouth",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Bournemouth",
+        "id": "AFC Bournemouth",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Gunners",
+        "id": "Arsenal",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Villa",
+        "id": "Aston Villa",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Villans",
+        "id": "Aston Villa",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Bees",
+        "id": "Brentford",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Seagulls",
+        "id": "Brighton & Hove Albion",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Albion",
+        "id": "Brighton & Hove Albion",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Brighton",
+        "id": "Brighton & Hove Albion",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Pensioners",
+        "id": "Chelsea",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Eagles",
+        "id": "Crystal Palace",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Glaziers",
+        "id": "Crystal Palace",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Toffees",
+        "id": "Everton",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Cottagers",
+        "id": "Fulham",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Tractor Boys",
+        "id": "Ipswich Town",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Foxes",
+        "id": "Leicester City",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Reds",
+        "id": "Liverpool",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Man City",
+        "id": "Manchester City",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Citizens",
+        "id": "Manchester City",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Man United",
+        "id": "Manchester United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Red Devils",
+        "id": "Manchester United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Newcastle",
+        "id": "Newcastle United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Magpies",
+        "id": "Newcastle United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Toon",
+        "id": "Newcastle United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Forest",
+        "id": "Nottingham Forest",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Tricky Trees",
+        "id": "Nottingham Forest",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Garibaldis",
+        "id": "Nottingham Forest",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Saints",
+        "id": "Southampton",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Hotspur",
+        "id": "Tottenham Hotspur",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Spurs",
+        "id": "Tottenham Hotspur",
+        "ignore_case": true
+    },
+    {
+        "label": "groupm",
+        "pattern": "Lilywhites",
+        "id": "Tottenham Hotspur",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Irons",
+        "id": "West Ham United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Hammers",
+        "id": "West Ham United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "West Ham",
+        "id": "West Ham United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Wolves",
+        "id": "Wolverhampton Wanderers",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": "Wolverhampton",
+        "id": "Wolverhampton Wanderers",
+        "ignore_case": true
+    }
+]

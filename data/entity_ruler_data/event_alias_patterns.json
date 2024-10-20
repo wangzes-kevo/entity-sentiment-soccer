@@ -1,0 +1,128 @@
+[
+    {
+        "label": "event",
+        "pattern": "World Cup",
+        "id": "FIFA World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Women's World Cup",
+        "id": "FIFA Women's World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Club World Cup",
+        "id": "FIFA Club World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "European Championship",
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Euro Championship",
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "UEFA Euro",
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Euro",
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Euros",
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Champions League",
+        "id": "UEFA Champions League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "UCL",
+        "id": "UEFA Champions League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Europa League",
+        "id": "UEFA Europa League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "UEL",
+        "id": "UEFA Europa League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Nations League",
+        "id": "UEFA Nations League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Asian Cup",
+        "id": "AFC Asian Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Copa America",
+        "id": "the South American Football Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Finalissima",
+        "id": "CONMEBOL\u2013UEFA Cup of Champions",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Confederations Cup",
+        "id": "FIFA Confederations Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "AFCON",
+        "id": "African Cup of Nations",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "African Cup",
+        "id": "African Cup of Nations",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "Emirates FA Cup",
+        "id": "FA Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": "FA Cup Final",
+        "id": "FA Cup",
+        "ignore_case": true
+    }
+]
