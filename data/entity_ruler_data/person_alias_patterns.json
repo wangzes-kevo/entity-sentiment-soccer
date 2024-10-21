@@ -1,145 +1,761 @@
 [
     {
         "label": "person",
-        "pattern": "Messi",
+        "pattern": [
+            {
+                "TEXT": "Lionel"
+            },
+            {
+                "TEXT": "Messi"
+            }
+        ],
         "id": "Lionel Messi",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Leo",
+        "pattern": [
+            {
+                "TEXT": "LionelMessi"
+            }
+        ],
         "id": "Lionel Messi",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "LM10",
+        "pattern": [
+            {
+                "TEXT": "Messi"
+            }
+        ],
         "id": "Lionel Messi",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "La Pulga Atomica",
+        "pattern": [
+            {
+                "TEXT": "Messi"
+            }
+        ],
         "id": "Lionel Messi",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Cristiano",
+        "pattern": [
+            {
+                "TEXT": "Leo"
+            }
+        ],
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Leo"
+            }
+        ],
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "LM10"
+            }
+        ],
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "LM10"
+            }
+        ],
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "La"
+            },
+            {
+                "TEXT": "Pulga"
+            },
+            {
+                "TEXT": "Atomica"
+            }
+        ],
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "LaPulgaAtomica"
+            }
+        ],
+        "id": "Lionel Messi",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Cristiano"
+            },
+            {
+                "TEXT": "Ronaldo"
+            }
+        ],
         "id": "Cristiano Ronaldo",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "CR7",
+        "pattern": [
+            {
+                "TEXT": "CristianoRonaldo"
+            }
+        ],
         "id": "Cristiano Ronaldo",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "El Bicho",
+        "pattern": [
+            {
+                "TEXT": "Cristiano"
+            }
+        ],
         "id": "Cristiano Ronaldo",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "El Nino",
+        "pattern": [
+            {
+                "TEXT": "Cristiano"
+            }
+        ],
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "CR7"
+            }
+        ],
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "CR7"
+            }
+        ],
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "El"
+            },
+            {
+                "TEXT": "Bicho"
+            }
+        ],
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "ElBicho"
+            }
+        ],
+        "id": "Cristiano Ronaldo",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Fernando"
+            },
+            {
+                "TEXT": "Torres"
+            }
+        ],
         "id": "Fernando Torres",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Kylian",
+        "pattern": [
+            {
+                "TEXT": "FernandoTorres"
+            }
+        ],
+        "id": "Fernando Torres",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "El"
+            },
+            {
+                "TEXT": "Nino"
+            }
+        ],
+        "id": "Fernando Torres",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "ElNino"
+            }
+        ],
+        "id": "Fernando Torres",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Kylian"
+            },
+            {
+                "TEXT": "Mbappe"
+            }
+        ],
         "id": "Kylian Mbappe",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Mbappe",
+        "pattern": [
+            {
+                "TEXT": "KylianMbappe"
+            }
+        ],
         "id": "Kylian Mbappe",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Kun",
+        "pattern": [
+            {
+                "TEXT": "Kylian"
+            }
+        ],
+        "id": "Kylian Mbappe",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Kylian"
+            }
+        ],
+        "id": "Kylian Mbappe",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Mbappe"
+            }
+        ],
+        "id": "Kylian Mbappe",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Mbappe"
+            }
+        ],
+        "id": "Kylian Mbappe",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Sergio"
+            },
+            {
+                "TEXT": "Aguero"
+            }
+        ],
         "id": "Sergio Aguero",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Aguero",
+        "pattern": [
+            {
+                "TEXT": "SergioAguero"
+            }
+        ],
         "id": "Sergio Aguero",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Ney",
+        "pattern": [
+            {
+                "TEXT": "Kun"
+            }
+        ],
+        "id": "Sergio Aguero",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Kun"
+            }
+        ],
+        "id": "Sergio Aguero",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Aguero"
+            }
+        ],
+        "id": "Sergio Aguero",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Aguero"
+            }
+        ],
+        "id": "Sergio Aguero",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Neymar"
+            },
+            {
+                "TEXT": "JR"
+            }
+        ],
         "id": "Neymar JR",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Neymar",
+        "pattern": [
+            {
+                "TEXT": "NeymarJR"
+            }
+        ],
         "id": "Neymar JR",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Hulk",
+        "pattern": [
+            {
+                "TEXT": "Ney"
+            }
+        ],
+        "id": "Neymar JR",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Ney"
+            }
+        ],
+        "id": "Neymar JR",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Neymar"
+            }
+        ],
+        "id": "Neymar JR",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Neymar"
+            }
+        ],
+        "id": "Neymar JR",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Hulk"
+            }
+        ],
         "id": "Givanildo Vieira de Sousa",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "KDB",
+        "pattern": [
+            {
+                "TEXT": "Hulk"
+            }
+        ],
+        "id": "Givanildo Vieira de Sousa",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Kevin"
+            },
+            {
+                "TEXT": "De"
+            },
+            {
+                "TEXT": "Bruyne"
+            }
+        ],
         "id": "Kevin De Bruyne",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Bruyne",
+        "pattern": [
+            {
+                "TEXT": "KevinDeBruyne"
+            }
+        ],
         "id": "Kevin De Bruyne",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "VVD",
+        "pattern": [
+            {
+                "TEXT": "KDB"
+            }
+        ],
+        "id": "Kevin De Bruyne",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "KDB"
+            }
+        ],
+        "id": "Kevin De Bruyne",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "De"
+            },
+            {
+                "TEXT": "Bruyne"
+            }
+        ],
+        "id": "Kevin De Bruyne",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "DeBruyne"
+            }
+        ],
+        "id": "Kevin De Bruyne",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Virgil"
+            },
+            {
+                "TEXT": "van"
+            },
+            {
+                "TEXT": "Dijk"
+            }
+        ],
         "id": "Virgil van Dijk",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "van Dijk",
+        "pattern": [
+            {
+                "TEXT": "VirgilvanDijk"
+            }
+        ],
         "id": "Virgil van Dijk",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "El Fideo",
+        "pattern": [
+            {
+                "TEXT": "VVD"
+            }
+        ],
+        "id": "Virgil van Dijk",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "VVD"
+            }
+        ],
+        "id": "Virgil van Dijk",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "van"
+            },
+            {
+                "TEXT": "Dijk"
+            }
+        ],
+        "id": "Virgil van Dijk",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "vanDijk"
+            }
+        ],
+        "id": "Virgil van Dijk",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Di"
+            },
+            {
+                "TEXT": "Maria"
+            }
+        ],
         "id": "Di Maria",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Pep",
+        "pattern": [
+            {
+                "TEXT": "DiMaria"
+            }
+        ],
+        "id": "Di Maria",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "El"
+            },
+            {
+                "TEXT": "Fideo"
+            }
+        ],
+        "id": "Di Maria",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "ElFideo"
+            }
+        ],
+        "id": "Di Maria",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Pep"
+            },
+            {
+                "TEXT": "Guardiola"
+            }
+        ],
         "id": "Pep Guardiola",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Guardiola",
+        "pattern": [
+            {
+                "TEXT": "PepGuardiola"
+            }
+        ],
         "id": "Pep Guardiola",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Slabhead",
+        "pattern": [
+            {
+                "TEXT": "Pep"
+            }
+        ],
+        "id": "Pep Guardiola",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Pep"
+            }
+        ],
+        "id": "Pep Guardiola",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Guardiola"
+            }
+        ],
+        "id": "Pep Guardiola",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Guardiola"
+            }
+        ],
+        "id": "Pep Guardiola",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Harry"
+            },
+            {
+                "TEXT": "Maguire"
+            }
+        ],
         "id": "Harry Maguire",
         "ignore_case": true
     },
     {
         "label": "person",
-        "pattern": "Maguire",
+        "pattern": [
+            {
+                "TEXT": "HarryMaguire"
+            }
+        ],
+        "id": "Harry Maguire",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Slabhead"
+            }
+        ],
+        "id": "Harry Maguire",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Slabhead"
+            }
+        ],
+        "id": "Harry Maguire",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Maguire"
+            }
+        ],
+        "id": "Harry Maguire",
+        "ignore_case": true
+    },
+    {
+        "label": "person",
+        "pattern": [
+            {
+                "TEXT": "Maguire"
+            }
+        ],
         "id": "Harry Maguire",
         "ignore_case": true
     }

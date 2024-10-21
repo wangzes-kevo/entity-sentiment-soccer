@@ -3,1186 +3,1342 @@
         "label": "group",
         "pattern": [
             {
-                "TEXT": "AFC"
+                "TEXT": "FC"
             },
             {
-                "TEXT": "Bournemouth"
+                "TEXT": "Augsburg"
             }
         ],
-        "id": "AFC Bournemouth",
+        "id": "FC Augsburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "AFCBournemouth"
+                "TEXT": "FCAugsburg"
             }
         ],
-        "id": "AFC Bournemouth",
+        "id": "FC Augsburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Cherries"
+                "TEXT": "Augsburg"
             }
         ],
-        "id": "AFC Bournemouth",
+        "id": "FC Augsburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Cherries"
+                "TEXT": "Augsburg"
             }
         ],
-        "id": "AFC Bournemouth",
+        "id": "FC Augsburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Bournemouth"
+                "TEXT": "Fuggerstadter"
             }
         ],
-        "id": "AFC Bournemouth",
+        "id": "FC Augsburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Bournemouth"
+                "TEXT": "Fuggerstadter"
             }
         ],
-        "id": "AFC Bournemouth",
+        "id": "FC Augsburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Arsenal"
-            }
-        ],
-        "id": "Arsenal",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Arsenal"
-            }
-        ],
-        "id": "Arsenal",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Gunners"
-            }
-        ],
-        "id": "Arsenal",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Gunners"
-            }
-        ],
-        "id": "Arsenal",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Aston"
+                "TEXT": "Bayer"
             },
             {
-                "TEXT": "Villa"
-            }
-        ],
-        "id": "Aston Villa",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "AstonVilla"
-            }
-        ],
-        "id": "Aston Villa",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Villa"
-            }
-        ],
-        "id": "Aston Villa",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Villa"
-            }
-        ],
-        "id": "Aston Villa",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Villans"
-            }
-        ],
-        "id": "Aston Villa",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Villans"
-            }
-        ],
-        "id": "Aston Villa",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Brentford"
-            }
-        ],
-        "id": "Brentford",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Brentford"
-            }
-        ],
-        "id": "Brentford",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Bees"
-            }
-        ],
-        "id": "Brentford",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Bees"
-            }
-        ],
-        "id": "Brentford",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Brighton"
+                "TEXT": "04"
             },
             {
-                "TEXT": "&"
+                "TEXT": "Leverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Bayer04Leverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Bayer"
             },
             {
-                "TEXT": "Hove"
+                "TEXT": "Leverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "BayerLeverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Leverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Leverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Neverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Neverkusen"
+            }
+        ],
+        "id": "Bayer 04 Leverkusen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
             },
             {
-                "TEXT": "Albion"
+                "TEXT": "Werkself"
             }
         ],
-        "id": "Brighton & Hove Albion",
+        "id": "Bayer 04 Leverkusen",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Brighton&HoveAlbion"
+                "TEXT": "DieWerkself"
             }
         ],
-        "id": "Brighton & Hove Albion",
+        "id": "Bayer 04 Leverkusen",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Seagulls"
-            }
-        ],
-        "id": "Brighton & Hove Albion",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Seagulls"
-            }
-        ],
-        "id": "Brighton & Hove Albion",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Albion"
-            }
-        ],
-        "id": "Brighton & Hove Albion",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Albion"
-            }
-        ],
-        "id": "Brighton & Hove Albion",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Brighton"
-            }
-        ],
-        "id": "Brighton & Hove Albion",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Brighton"
-            }
-        ],
-        "id": "Brighton & Hove Albion",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Chelsea"
-            }
-        ],
-        "id": "Chelsea",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Chelsea"
-            }
-        ],
-        "id": "Chelsea",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Pensioners"
-            }
-        ],
-        "id": "Chelsea",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Pensioners"
-            }
-        ],
-        "id": "Chelsea",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Crystal"
+                "TEXT": "FC"
             },
             {
-                "TEXT": "Palace"
-            }
-        ],
-        "id": "Crystal Palace",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "CrystalPalace"
-            }
-        ],
-        "id": "Crystal Palace",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Eagles"
-            }
-        ],
-        "id": "Crystal Palace",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Eagles"
-            }
-        ],
-        "id": "Crystal Palace",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Glaziers"
-            }
-        ],
-        "id": "Crystal Palace",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Glaziers"
-            }
-        ],
-        "id": "Crystal Palace",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Everton"
-            }
-        ],
-        "id": "Everton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Everton"
-            }
-        ],
-        "id": "Everton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Toffees"
-            }
-        ],
-        "id": "Everton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Toffees"
-            }
-        ],
-        "id": "Everton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Fulham"
-            }
-        ],
-        "id": "Fulham",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Fulham"
-            }
-        ],
-        "id": "Fulham",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Cottagers"
-            }
-        ],
-        "id": "Fulham",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Cottagers"
-            }
-        ],
-        "id": "Fulham",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Ipswich"
+                "TEXT": "Bayern"
             },
             {
-                "TEXT": "Town"
+                "TEXT": "Munich"
             }
         ],
-        "id": "Ipswich Town",
+        "id": "FC Bayern Munich",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "IpswichTown"
+                "TEXT": "FCBayernMunich"
             }
         ],
-        "id": "Ipswich Town",
+        "id": "FC Bayern Munich",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Tractor"
+                "TEXT": "Bayern"
             },
             {
-                "TEXT": "Boys"
+                "TEXT": "Munich"
             }
         ],
-        "id": "Ipswich Town",
+        "id": "FC Bayern Munich",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "TractorBoys"
+                "TEXT": "BayernMunich"
             }
         ],
-        "id": "Ipswich Town",
+        "id": "FC Bayern Munich",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Leicester"
+                "TEXT": "Bayern"
+            }
+        ],
+        "id": "FC Bayern Munich",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Bayern"
+            }
+        ],
+        "id": "FC Bayern Munich",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "FC"
             },
             {
-                "TEXT": "City"
+                "TEXT": "Hollyhood"
             }
         ],
-        "id": "Leicester City",
+        "id": "FC Bayern Munich",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "LeicesterCity"
+                "TEXT": "FCHollyhood"
             }
         ],
-        "id": "Leicester City",
+        "id": "FC Bayern Munich",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Foxes"
-            }
-        ],
-        "id": "Leicester City",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Foxes"
-            }
-        ],
-        "id": "Leicester City",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Liverpool"
-            }
-        ],
-        "id": "Liverpool",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Liverpool"
-            }
-        ],
-        "id": "Liverpool",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Manchester"
+                "TEXT": "Borussia"
             },
             {
-                "TEXT": "City"
+                "TEXT": "Dortmund"
             }
         ],
-        "id": "Manchester City",
+        "id": "Borussia Dortmund",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "ManchesterCity"
+                "TEXT": "BorussiaDortmund"
             }
         ],
-        "id": "Manchester City",
+        "id": "Borussia Dortmund",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Man"
+                "TEXT": "Dortmund"
+            }
+        ],
+        "id": "Borussia Dortmund",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Dortmund"
+            }
+        ],
+        "id": "Borussia Dortmund",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "BVB"
+            }
+        ],
+        "id": "Borussia Dortmund",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "BVB"
+            }
+        ],
+        "id": "Borussia Dortmund",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
             },
             {
-                "TEXT": "City"
+                "TEXT": "Schwarzgelben"
             }
         ],
-        "id": "Manchester City",
+        "id": "Borussia Dortmund",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "ManCity"
+                "TEXT": "DieSchwarzgelben"
             }
         ],
-        "id": "Manchester City",
+        "id": "Borussia Dortmund",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Citizens"
-            }
-        ],
-        "id": "Manchester City",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Citizens"
-            }
-        ],
-        "id": "Manchester City",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Manchester"
+                "TEXT": "Borussia"
             },
             {
-                "TEXT": "United"
+                "TEXT": "Monchengladbach"
             }
         ],
-        "id": "Manchester United",
+        "id": "Borussia Monchengladbach",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "ManchesterUnited"
+                "TEXT": "BorussiaMonchengladbach"
             }
         ],
-        "id": "Manchester United",
+        "id": "Borussia Monchengladbach",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Man"
+                "TEXT": "Die"
             },
             {
-                "TEXT": "United"
+                "TEXT": "Fohlen"
             }
         ],
-        "id": "Manchester United",
+        "id": "Borussia Monchengladbach",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "ManUnited"
+                "TEXT": "DieFohlen"
             }
         ],
-        "id": "Manchester United",
+        "id": "Borussia Monchengladbach",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
+            {
+                "TEXT": "Monchengladbach"
+            }
+        ],
+        "id": "Borussia Monchengladbach",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Monchengladbach"
+            }
+        ],
+        "id": "Borussia Monchengladbach",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Eintracht"
+            },
+            {
+                "TEXT": "Frankfurt"
+            }
+        ],
+        "id": "Eintracht Frankfurt",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "EintrachtFrankfurt"
+            }
+        ],
+        "id": "Eintracht Frankfurt",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Frankfurt"
+            }
+        ],
+        "id": "Eintracht Frankfurt",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Frankfurt"
+            }
+        ],
+        "id": "Eintracht Frankfurt",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Adler"
+            }
+        ],
+        "id": "Eintracht Frankfurt",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieAdler"
+            }
+        ],
+        "id": "Eintracht Frankfurt",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "1."
+            },
+            {
+                "TEXT": "FC"
+            },
+            {
+                "TEXT": "Heidenheim"
+            },
+            {
+                "TEXT": "1846"
+            }
+        ],
+        "id": "1. FC Heidenheim 1846",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "1.FCHeidenheim1846"
+            }
+        ],
+        "id": "1. FC Heidenheim 1846",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Heidenheim"
+            }
+        ],
+        "id": "1. FC Heidenheim 1846",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Heidenheim"
+            }
+        ],
+        "id": "1. FC Heidenheim 1846",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Schanzer"
+            }
+        ],
+        "id": "1. FC Heidenheim 1846",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieSchanzer"
+            }
+        ],
+        "id": "1. FC Heidenheim 1846",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "TSG"
+            },
+            {
+                "TEXT": "Hoffenheim"
+            }
+        ],
+        "id": "TSG Hoffenheim",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "TSGHoffenheim"
+            }
+        ],
+        "id": "TSG Hoffenheim",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Hoffenheim"
+            }
+        ],
+        "id": "TSG Hoffenheim",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Hoffenheim"
+            }
+        ],
+        "id": "TSG Hoffenheim",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Kraichgauer"
+            }
+        ],
+        "id": "TSG Hoffenheim",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieKraichgauer"
+            }
+        ],
+        "id": "TSG Hoffenheim",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Holstein"
+            },
+            {
+                "TEXT": "Kiel"
+            }
+        ],
+        "id": "Holstein Kiel",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "HolsteinKiel"
+            }
+        ],
+        "id": "Holstein Kiel",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Storche"
+            }
+        ],
+        "id": "Holstein Kiel",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieStorche"
+            }
+        ],
+        "id": "Holstein Kiel",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "1."
+            },
+            {
+                "TEXT": "FSV"
+            },
+            {
+                "TEXT": "Mainz"
+            },
+            {
+                "TEXT": "05"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "1.FSVMainz05"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "FSV"
+            },
+            {
+                "TEXT": "Mainz"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "FSVMainz"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Mainz"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Mainz"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Nullfunfer"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieNullfunfer"
+            }
+        ],
+        "id": "1. FSV Mainz 05",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "RB"
+            },
+            {
+                "TEXT": "Leipzig"
+            }
+        ],
+        "id": "RB Leipzig",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "RBLeipzig"
+            }
+        ],
+        "id": "RB Leipzig",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Leipzig"
+            }
+        ],
+        "id": "RB Leipzig",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Leipzig"
+            }
+        ],
+        "id": "RB Leipzig",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Roten"
+            },
+            {
+                "TEXT": "Bullen"
+            }
+        ],
+        "id": "RB Leipzig",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieRotenBullen"
+            }
+        ],
+        "id": "RB Leipzig",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "The"
+            },
             {
                 "TEXT": "Red"
             },
             {
-                "TEXT": "Devils"
+                "TEXT": "Bulls"
             }
         ],
-        "id": "Manchester United",
+        "id": "RB Leipzig",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "RedDevils"
+                "TEXT": "TheRedBulls"
             }
         ],
-        "id": "Manchester United",
+        "id": "RB Leipzig",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Newcastle"
+                "TEXT": "SC"
             },
             {
-                "TEXT": "United"
+                "TEXT": "Freiburg"
             }
         ],
-        "id": "Newcastle United",
+        "id": "SC Freiburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "NewcastleUnited"
+                "TEXT": "SCFreiburg"
             }
         ],
-        "id": "Newcastle United",
+        "id": "SC Freiburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Newcastle"
+                "TEXT": "Freiburg"
             }
         ],
-        "id": "Newcastle United",
+        "id": "SC Freiburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Newcastle"
+                "TEXT": "Freiburg"
             }
         ],
-        "id": "Newcastle United",
+        "id": "SC Freiburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Magpies"
+                "TEXT": "Breisgau-Brasilianer"
             }
         ],
-        "id": "Newcastle United",
+        "id": "SC Freiburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Magpies"
+                "TEXT": "Breisgau-Brasilianer"
             }
         ],
-        "id": "Newcastle United",
+        "id": "SC Freiburg",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Toon"
-            }
-        ],
-        "id": "Newcastle United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Toon"
-            }
-        ],
-        "id": "Newcastle United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Nottingham"
+                "TEXT": "FC"
             },
             {
-                "TEXT": "Forest"
-            }
-        ],
-        "id": "Nottingham Forest",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "NottinghamForest"
-            }
-        ],
-        "id": "Nottingham Forest",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Forest"
-            }
-        ],
-        "id": "Nottingham Forest",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Forest"
-            }
-        ],
-        "id": "Nottingham Forest",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Tricky"
+                "TEXT": "St."
             },
             {
-                "TEXT": "Trees"
+                "TEXT": "Pauli"
             }
         ],
-        "id": "Nottingham Forest",
+        "id": "FC St. Pauli",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "TrickyTrees"
+                "TEXT": "FCSt.Pauli"
             }
         ],
-        "id": "Nottingham Forest",
+        "id": "FC St. Pauli",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Garibaldis"
-            }
-        ],
-        "id": "Nottingham Forest",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Garibaldis"
-            }
-        ],
-        "id": "Nottingham Forest",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Southampton"
-            }
-        ],
-        "id": "Southampton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Southampton"
-            }
-        ],
-        "id": "Southampton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Saints"
-            }
-        ],
-        "id": "Southampton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Saints"
-            }
-        ],
-        "id": "Southampton",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Tottenham"
+                "TEXT": "St."
             },
             {
-                "TEXT": "Hotspur"
+                "TEXT": "Pauli"
             }
         ],
-        "id": "Tottenham Hotspur",
+        "id": "FC St. Pauli",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "TottenhamHotspur"
+                "TEXT": "St.Pauli"
             }
         ],
-        "id": "Tottenham Hotspur",
+        "id": "FC St. Pauli",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Hotspur"
+                "TEXT": "Kiezkicker"
             }
         ],
-        "id": "Tottenham Hotspur",
+        "id": "FC St. Pauli",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Hotspur"
+                "TEXT": "Kiezkicker"
             }
         ],
-        "id": "Tottenham Hotspur",
+        "id": "FC St. Pauli",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Spurs"
-            }
-        ],
-        "id": "Tottenham Hotspur",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Spurs"
-            }
-        ],
-        "id": "Tottenham Hotspur",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Lilywhites"
-            }
-        ],
-        "id": "Tottenham Hotspur",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Lilywhites"
-            }
-        ],
-        "id": "Tottenham Hotspur",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Tottenham"
-            }
-        ],
-        "id": "Tottenham Hotspur",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Tottenham"
-            }
-        ],
-        "id": "Tottenham Hotspur",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "West"
+                "TEXT": "1."
             },
             {
-                "TEXT": "Ham"
+                "TEXT": "FC"
             },
             {
-                "TEXT": "United"
-            }
-        ],
-        "id": "West Ham United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "WestHamUnited"
-            }
-        ],
-        "id": "West Ham United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Irons"
-            }
-        ],
-        "id": "West Ham United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Irons"
-            }
-        ],
-        "id": "West Ham United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Hammers"
-            }
-        ],
-        "id": "West Ham United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Hammers"
-            }
-        ],
-        "id": "West Ham United",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "West"
+                "TEXT": "Union"
             },
             {
-                "TEXT": "Ham"
+                "TEXT": "Berlin"
             }
         ],
-        "id": "West Ham United",
+        "id": "1. FC Union Berlin",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "WestHam"
+                "TEXT": "1.FCUnionBerlin"
             }
         ],
-        "id": "West Ham United",
+        "id": "1. FC Union Berlin",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Wolverhampton"
+                "TEXT": "FC"
             },
             {
-                "TEXT": "Wanderers"
+                "TEXT": "Union"
+            },
+            {
+                "TEXT": "Berlin"
             }
         ],
-        "id": "Wolverhampton Wanderers",
+        "id": "1. FC Union Berlin",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "WolverhamptonWanderers"
+                "TEXT": "FCUnionBerlin"
             }
         ],
-        "id": "Wolverhampton Wanderers",
+        "id": "1. FC Union Berlin",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Wolves"
+                "TEXT": "Union"
+            },
+            {
+                "TEXT": "Berlin"
             }
         ],
-        "id": "Wolverhampton Wanderers",
+        "id": "1. FC Union Berlin",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Wolves"
+                "TEXT": "UnionBerlin"
             }
         ],
-        "id": "Wolverhampton Wanderers",
+        "id": "1. FC Union Berlin",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Wolverhampton"
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Eisernen"
             }
         ],
-        "id": "Wolverhampton Wanderers",
+        "id": "1. FC Union Berlin",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Wolverhampton"
+                "TEXT": "DieEisernen"
             }
         ],
-        "id": "Wolverhampton Wanderers",
+        "id": "1. FC Union Berlin",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfB"
+            },
+            {
+                "TEXT": "Stuttgart"
+            }
+        ],
+        "id": "VfB Stuttgart",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfBStuttgart"
+            }
+        ],
+        "id": "VfB Stuttgart",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Stuttgart"
+            }
+        ],
+        "id": "VfB Stuttgart",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Stuttgart"
+            }
+        ],
+        "id": "VfB Stuttgart",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Schwaben"
+            }
+        ],
+        "id": "VfB Stuttgart",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieSchwaben"
+            }
+        ],
+        "id": "VfB Stuttgart",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfL"
+            },
+            {
+                "TEXT": "Bochum"
+            },
+            {
+                "TEXT": "1848"
+            }
+        ],
+        "id": "VfL Bochum 1848",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfLBochum1848"
+            }
+        ],
+        "id": "VfL Bochum 1848",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfL"
+            },
+            {
+                "TEXT": "Bochum"
+            }
+        ],
+        "id": "VfL Bochum 1848",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfLBochum"
+            }
+        ],
+        "id": "VfL Bochum 1848",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Bochum"
+            }
+        ],
+        "id": "VfL Bochum 1848",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Bochum"
+            }
+        ],
+        "id": "VfL Bochum 1848",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfL"
+            },
+            {
+                "TEXT": "Wolfsburg"
+            }
+        ],
+        "id": "VfL Wolfsburg",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VfLWolfsburg"
+            }
+        ],
+        "id": "VfL Wolfsburg",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Wolfsburg"
+            }
+        ],
+        "id": "VfL Wolfsburg",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Wolfsburg"
+            }
+        ],
+        "id": "VfL Wolfsburg",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Die"
+            },
+            {
+                "TEXT": "Wolfe"
+            }
+        ],
+        "id": "VfL Wolfsburg",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "DieWolfe"
+            }
+        ],
+        "id": "VfL Wolfsburg",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "SV"
+            },
+            {
+                "TEXT": "Werder"
+            },
+            {
+                "TEXT": "Bremen"
+            }
+        ],
+        "id": "SV Werder Bremen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "SVWerderBremen"
+            }
+        ],
+        "id": "SV Werder Bremen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Werder"
+            },
+            {
+                "TEXT": "Bremen"
+            }
+        ],
+        "id": "SV Werder Bremen",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "WerderBremen"
+            }
+        ],
+        "id": "SV Werder Bremen",
         "ignore_case": true
     }
 ]

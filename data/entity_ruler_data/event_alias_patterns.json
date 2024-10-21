@@ -1,127 +1,828 @@
 [
     {
         "label": "event",
-        "pattern": "World Cup",
+        "pattern": [
+            {
+                "TEXT": "FIFA"
+            },
+            {
+                "TEXT": "World"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
         "id": "FIFA World Cup",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Women's World Cup",
+        "pattern": [
+            {
+                "TEXT": "FIFAWorldCup"
+            }
+        ],
+        "id": "FIFA World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "World"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
+        "id": "FIFA World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "WorldCup"
+            }
+        ],
+        "id": "FIFA World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "FIFA"
+            },
+            {
+                "TEXT": "Women's"
+            },
+            {
+                "TEXT": "World"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
         "id": "FIFA Women's World Cup",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Club World Cup",
+        "pattern": [
+            {
+                "TEXT": "FIFAWomen'sWorldCup"
+            }
+        ],
+        "id": "FIFA Women's World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Women's"
+            },
+            {
+                "TEXT": "World"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
+        "id": "FIFA Women's World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Women'sWorldCup"
+            }
+        ],
+        "id": "FIFA Women's World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "FIFA"
+            },
+            {
+                "TEXT": "Club"
+            },
+            {
+                "TEXT": "World"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
         "id": "FIFA Club World Cup",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "European Championship",
+        "pattern": [
+            {
+                "TEXT": "FIFAClubWorldCup"
+            }
+        ],
+        "id": "FIFA Club World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Club"
+            },
+            {
+                "TEXT": "World"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
+        "id": "FIFA Club World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "ClubWorldCup"
+            }
+        ],
+        "id": "FIFA Club World Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEFA"
+            },
+            {
+                "TEXT": "European"
+            },
+            {
+                "TEXT": "Championship"
+            }
+        ],
         "id": "UEFA European Championship",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Euro Championship",
+        "pattern": [
+            {
+                "TEXT": "UEFAEuropeanChampionship"
+            }
+        ],
         "id": "UEFA European Championship",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "UEFA Euro",
+        "pattern": [
+            {
+                "TEXT": "European"
+            },
+            {
+                "TEXT": "Championship"
+            }
+        ],
         "id": "UEFA European Championship",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Euro",
+        "pattern": [
+            {
+                "TEXT": "EuropeanChampionship"
+            }
+        ],
         "id": "UEFA European Championship",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Euros",
+        "pattern": [
+            {
+                "TEXT": "Euro"
+            },
+            {
+                "TEXT": "Championship"
+            }
+        ],
         "id": "UEFA European Championship",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Champions League",
+        "pattern": [
+            {
+                "TEXT": "EuroChampionship"
+            }
+        ],
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEFA"
+            },
+            {
+                "TEXT": "Euro"
+            }
+        ],
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEFAEuro"
+            }
+        ],
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Euro"
+            }
+        ],
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Euro"
+            }
+        ],
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Euros"
+            }
+        ],
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Euros"
+            }
+        ],
+        "id": "UEFA European Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEFA"
+            },
+            {
+                "TEXT": "Champions"
+            },
+            {
+                "TEXT": "League"
+            }
+        ],
         "id": "UEFA Champions League",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "UCL",
+        "pattern": [
+            {
+                "TEXT": "UEFAChampionsLeague"
+            }
+        ],
         "id": "UEFA Champions League",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Europa League",
+        "pattern": [
+            {
+                "TEXT": "Champions"
+            },
+            {
+                "TEXT": "League"
+            }
+        ],
+        "id": "UEFA Champions League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "ChampionsLeague"
+            }
+        ],
+        "id": "UEFA Champions League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UCL"
+            }
+        ],
+        "id": "UEFA Champions League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UCL"
+            }
+        ],
+        "id": "UEFA Champions League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEFA"
+            },
+            {
+                "TEXT": "Europa"
+            },
+            {
+                "TEXT": "League"
+            }
+        ],
         "id": "UEFA Europa League",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "UEL",
+        "pattern": [
+            {
+                "TEXT": "UEFAEuropaLeague"
+            }
+        ],
         "id": "UEFA Europa League",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Nations League",
+        "pattern": [
+            {
+                "TEXT": "Europa"
+            },
+            {
+                "TEXT": "League"
+            }
+        ],
+        "id": "UEFA Europa League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "EuropaLeague"
+            }
+        ],
+        "id": "UEFA Europa League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEL"
+            }
+        ],
+        "id": "UEFA Europa League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEL"
+            }
+        ],
+        "id": "UEFA Europa League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "UEFA"
+            },
+            {
+                "TEXT": "Nations"
+            },
+            {
+                "TEXT": "League"
+            }
+        ],
         "id": "UEFA Nations League",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Asian Cup",
+        "pattern": [
+            {
+                "TEXT": "UEFANationsLeague"
+            }
+        ],
+        "id": "UEFA Nations League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Nations"
+            },
+            {
+                "TEXT": "League"
+            }
+        ],
+        "id": "UEFA Nations League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "NationsLeague"
+            }
+        ],
+        "id": "UEFA Nations League",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "AFC"
+            },
+            {
+                "TEXT": "Asian"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
         "id": "AFC Asian Cup",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Copa America",
-        "id": "the South American Football Championship",
+        "pattern": [
+            {
+                "TEXT": "AFCAsianCup"
+            }
+        ],
+        "id": "AFC Asian Cup",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Finalissima",
+        "pattern": [
+            {
+                "TEXT": "Asian"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
+        "id": "AFC Asian Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "AsianCup"
+            }
+        ],
+        "id": "AFC Asian Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "South"
+            },
+            {
+                "TEXT": "American"
+            },
+            {
+                "TEXT": "Football"
+            },
+            {
+                "TEXT": "Championship"
+            }
+        ],
+        "id": "South American Football Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "SouthAmericanFootballChampionship"
+            }
+        ],
+        "id": "South American Football Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Copa"
+            },
+            {
+                "TEXT": "America"
+            }
+        ],
+        "id": "South American Football Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "CopaAmerica"
+            }
+        ],
+        "id": "South American Football Championship",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "CONMEBOL\u2013UEFA"
+            },
+            {
+                "TEXT": "Cup"
+            },
+            {
+                "TEXT": "of"
+            },
+            {
+                "TEXT": "Champions"
+            }
+        ],
         "id": "CONMEBOL\u2013UEFA Cup of Champions",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Confederations Cup",
+        "pattern": [
+            {
+                "TEXT": "CONMEBOL\u2013UEFACupofChampions"
+            }
+        ],
+        "id": "CONMEBOL\u2013UEFA Cup of Champions",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Finalissima"
+            }
+        ],
+        "id": "CONMEBOL\u2013UEFA Cup of Champions",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Finalissima"
+            }
+        ],
+        "id": "CONMEBOL\u2013UEFA Cup of Champions",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "FIFA"
+            },
+            {
+                "TEXT": "Confederations"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
         "id": "FIFA Confederations Cup",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "AFCON",
+        "pattern": [
+            {
+                "TEXT": "FIFAConfederationsCup"
+            }
+        ],
+        "id": "FIFA Confederations Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Confederations"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
+        "id": "FIFA Confederations Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "ConfederationsCup"
+            }
+        ],
+        "id": "FIFA Confederations Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "African"
+            },
+            {
+                "TEXT": "Cup"
+            },
+            {
+                "TEXT": "of"
+            },
+            {
+                "TEXT": "Nations"
+            }
+        ],
         "id": "African Cup of Nations",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "African Cup",
+        "pattern": [
+            {
+                "TEXT": "AfricanCupofNations"
+            }
+        ],
         "id": "African Cup of Nations",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "Emirates FA Cup",
+        "pattern": [
+            {
+                "TEXT": "AFCON"
+            }
+        ],
+        "id": "African Cup of Nations",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "AFCON"
+            }
+        ],
+        "id": "African Cup of Nations",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "African"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
+        "id": "African Cup of Nations",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "AfricanCup"
+            }
+        ],
+        "id": "African Cup of Nations",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "FA"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
         "id": "FA Cup",
         "ignore_case": true
     },
     {
         "label": "event",
-        "pattern": "FA Cup Final",
+        "pattern": [
+            {
+                "TEXT": "FACup"
+            }
+        ],
+        "id": "FA Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "Emirates"
+            },
+            {
+                "TEXT": "FA"
+            },
+            {
+                "TEXT": "Cup"
+            }
+        ],
+        "id": "FA Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "EmiratesFACup"
+            }
+        ],
+        "id": "FA Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "FA"
+            },
+            {
+                "TEXT": "Cup"
+            },
+            {
+                "TEXT": "Final"
+            }
+        ],
+        "id": "FA Cup",
+        "ignore_case": true
+    },
+    {
+        "label": "event",
+        "pattern": [
+            {
+                "TEXT": "FACupFinal"
+            }
+        ],
         "id": "FA Cup",
         "ignore_case": true
     }

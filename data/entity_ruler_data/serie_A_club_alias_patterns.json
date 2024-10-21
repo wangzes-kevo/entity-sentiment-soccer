@@ -3,928 +3,1164 @@
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Babazorros"
-            }
-        ],
-        "id": "Alaves",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Babazorros"
-            }
-        ],
-        "id": "Alaves",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "El"
+                "TEXT": "Atalanta"
             },
             {
-                "TEXT": "Glorioso"
+                "TEXT": "BC"
             }
         ],
-        "id": "Alaves",
+        "id": "Atalanta BC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "ElGlorioso"
+                "TEXT": "AtalantaBC"
             }
         ],
-        "id": "Alaves",
+        "id": "Atalanta BC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Athletic"
+                "TEXT": "Atalanta"
+            }
+        ],
+        "id": "Atalanta BC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Atalanta"
+            }
+        ],
+        "id": "Atalanta BC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "La"
             },
             {
-                "TEXT": "Club"
+                "TEXT": "Dea"
             }
         ],
-        "id": "Athletic Club",
+        "id": "Atalanta",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "AthleticClub"
+                "TEXT": "LaDea"
             }
         ],
-        "id": "Athletic Club",
+        "id": "Atalanta",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Athletic"
+                "TEXT": "Bologna"
             }
         ],
-        "id": "Athletic Club",
+        "id": "Bologna FC 1909",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Athletic"
+                "TEXT": "Bologna"
             }
         ],
-        "id": "Athletic Club",
+        "id": "Bologna FC 1909",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Atletico"
+                "TEXT": "Bologna"
             },
             {
-                "TEXT": "Madrid"
-            }
-        ],
-        "id": "Atletico Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "AtleticoMadrid"
-            }
-        ],
-        "id": "Atletico Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Colchoneros"
-            }
-        ],
-        "id": "Atletico Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Colchoneros"
-            }
-        ],
-        "id": "Atletico Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Mattress"
+                "TEXT": "FC"
             },
             {
-                "TEXT": "Makers"
+                "TEXT": "1909"
             }
         ],
-        "id": "Atletico Madrid",
+        "id": "Bologna FC 1909",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "MattressMakers"
+                "TEXT": "BolognaFC1909"
             }
         ],
-        "id": "Atletico Madrid",
+        "id": "Bologna FC 1909",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Mattressmakers"
-            }
-        ],
-        "id": "Atletico Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Mattressmakers"
-            }
-        ],
-        "id": "Atletico Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Barca"
-            }
-        ],
-        "id": "Barcelona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Barca"
-            }
-        ],
-        "id": "Barcelona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Blaugrana"
-            }
-        ],
-        "id": "Barcelona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Blaugrana"
-            }
-        ],
-        "id": "Barcelona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Celta"
+                "TEXT": "Cagliari"
             },
             {
-                "TEXT": "de"
+                "TEXT": "Calcio"
+            }
+        ],
+        "id": "Cagliari Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "CagliariCalcio"
+            }
+        ],
+        "id": "Cagliari Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Cagliari"
+            }
+        ],
+        "id": "Cagliari Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Cagliari"
+            }
+        ],
+        "id": "Cagliari Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Como"
             },
             {
-                "TEXT": "Vigo"
+                "TEXT": "1907"
             }
         ],
-        "id": "Celta de Vigo",
+        "id": "Como 1907",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "CeltadeVigo"
+                "TEXT": "Como1907"
             }
         ],
-        "id": "Celta de Vigo",
+        "id": "Como 1907",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Celta"
+                "TEXT": "Como"
             }
         ],
-        "id": "Celta de Vigo",
+        "id": "Como 1907",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Celta"
+                "TEXT": "Como"
             }
         ],
-        "id": "Celta de Vigo",
+        "id": "Como 1907",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Periquitos"
+                "TEXT": "Empoli"
             }
         ],
-        "id": "Espanyol",
+        "id": "Empoli FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Periquitos"
+                "TEXT": "Empoli"
             }
         ],
-        "id": "Espanyol",
+        "id": "Empoli FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Blanquiazules"
+                "TEXT": "Azzurri"
             }
         ],
-        "id": "Espanyol",
+        "id": "Empoli FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Blanquiazules"
+                "TEXT": "Azzurri"
             }
         ],
-        "id": "Espanyol",
+        "id": "Empoli FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Azulones"
-            }
-        ],
-        "id": "Getafe",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Azulones"
-            }
-        ],
-        "id": "Getafe",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Blanquivermells"
-            }
-        ],
-        "id": "Girona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Blanquivermells"
-            }
-        ],
-        "id": "Girona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Gironistes"
-            }
-        ],
-        "id": "Girona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Gironistes"
-            }
-        ],
-        "id": "Girona",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Las"
+                "TEXT": "ACF"
             },
             {
-                "TEXT": "Palmas"
+                "TEXT": "Fiorentina"
             }
         ],
-        "id": "Las Palmas",
+        "id": "ACF Fiorentina",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "LasPalmas"
+                "TEXT": "ACFFiorentina"
             }
         ],
-        "id": "Las Palmas",
+        "id": "ACF Fiorentina",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Los"
+                "TEXT": "Fiorentina"
+            }
+        ],
+        "id": "ACF Fiorentina",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Fiorentina"
+            }
+        ],
+        "id": "ACF Fiorentina",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Viola"
+            }
+        ],
+        "id": "ACF Fiorentina",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Viola"
+            }
+        ],
+        "id": "ACF Fiorentina",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Gigliati"
+            }
+        ],
+        "id": "ACF Fiorentina",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Gigliati"
+            }
+        ],
+        "id": "ACF Fiorentina",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Genoa"
+            }
+        ],
+        "id": "Genoa CFC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Genoa"
+            }
+        ],
+        "id": "Genoa CFC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Grifone"
+            }
+        ],
+        "id": "Genoa CFC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Grifone"
+            }
+        ],
+        "id": "Genoa CFC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Griffin"
+            }
+        ],
+        "id": "Genoa CFC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Griffin"
+            }
+        ],
+        "id": "Genoa CFC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Hellas"
             },
             {
-                "TEXT": "Amarillos"
+                "TEXT": "Verona"
             }
         ],
-        "id": "Las Palmas",
+        "id": "Hellas Verona",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "LosAmarillos"
+                "TEXT": "HellasVerona"
             }
         ],
-        "id": "Las Palmas",
+        "id": "Hellas Verona",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "pepineros"
+                "TEXT": "Verona"
             }
         ],
-        "id": "Leganes",
+        "id": "Hellas Verona",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "pepineros"
+                "TEXT": "Verona"
             }
         ],
-        "id": "Leganes",
+        "id": "Hellas Verona",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "RCD"
+                "TEXT": "Inter"
             },
             {
-                "TEXT": "Mallorca"
+                "TEXT": "Milan"
             }
         ],
-        "id": "RCD Mallorca",
+        "id": "Inter Milan",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "RCDMallorca"
+                "TEXT": "InterMilan"
             }
         ],
-        "id": "RCD Mallorca",
+        "id": "Inter Milan",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Bermellones"
+                "TEXT": "Inter"
             }
         ],
-        "id": "RCD Mallorca",
+        "id": "Inter Milan",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Bermellones"
+                "TEXT": "Inter"
             }
         ],
-        "id": "RCD Mallorca",
+        "id": "Inter Milan",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Vermilions"
-            }
-        ],
-        "id": "RCD Mallorca",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Vermilions"
-            }
-        ],
-        "id": "RCD Mallorca",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Mallorca"
-            }
-        ],
-        "id": "RCD Mallorca",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Mallorca"
-            }
-        ],
-        "id": "RCD Mallorca",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Rojillos"
-            }
-        ],
-        "id": "Osasuna",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Rojillos"
-            }
-        ],
-        "id": "Osasuna",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Gorritxoak"
-            }
-        ],
-        "id": "Osasuna",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Gorritxoak"
-            }
-        ],
-        "id": "Osasuna",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Rayo"
+                "TEXT": "Juventus"
             },
             {
-                "TEXT": "Vallecano"
+                "TEXT": "FC"
             }
         ],
-        "id": "Rayo Vallecano",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "RayoVallecano"
+                "TEXT": "JuventusFC"
             }
         ],
-        "id": "Rayo Vallecano",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Franjirrojos"
+                "TEXT": "Juventus"
             }
         ],
-        "id": "Rayo Vallecano",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Franjirrojos"
+                "TEXT": "Juventus"
             }
         ],
-        "id": "Rayo Vallecano",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Rayo"
-            }
-        ],
-        "id": "Rayo Vallecano",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Rayo"
-            }
-        ],
-        "id": "Rayo Vallecano",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Real"
+                "TEXT": "The"
             },
             {
-                "TEXT": "Betis"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "RealBetis"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Betis"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Betis"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Verdiblancos"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Verdiblancos"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Beticos"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Beticos"
-            }
-        ],
-        "id": "Real Betis",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Real"
+                "TEXT": "Old"
             },
             {
-                "TEXT": "Madrid"
+                "TEXT": "Lady"
             }
         ],
-        "id": "Real Madrid",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "RealMadrid"
+                "TEXT": "TheOldLady"
             }
         ],
-        "id": "Real Madrid",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Los"
+                "TEXT": "La"
             },
             {
-                "TEXT": "Blancos"
-            }
-        ],
-        "id": "Real Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "LosBlancos"
-            }
-        ],
-        "id": "Real Madrid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Real"
+                "TEXT": "Vecchia"
             },
             {
-                "TEXT": "Sociedad"
+                "TEXT": "Signora"
             }
         ],
-        "id": "Real Sociedad",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "RealSociedad"
+                "TEXT": "LaVecchiaSignora"
             }
         ],
-        "id": "Real Sociedad",
+        "id": "Juventus FC",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Txuri-Urdin"
-            }
-        ],
-        "id": "Real Sociedad",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Txuri-Urdin"
-            }
-        ],
-        "id": "Real Sociedad",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Sociedad"
-            }
-        ],
-        "id": "Real Sociedad",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Sociedad"
-            }
-        ],
-        "id": "Real Sociedad",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Real"
+                "TEXT": "SS"
             },
             {
-                "TEXT": "Valladolid"
+                "TEXT": "Lazio"
             }
         ],
-        "id": "Real Valladolid",
+        "id": "SS Lazio",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "RealValladolid"
+                "TEXT": "SSLazio"
             }
         ],
-        "id": "Real Valladolid",
+        "id": "SS Lazio",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Pucela"
+                "TEXT": "Lazio"
             }
         ],
-        "id": "Real Valladolid",
+        "id": "SS Lazio",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Pucela"
+                "TEXT": "Lazio"
             }
         ],
-        "id": "Real Valladolid",
+        "id": "SS Lazio",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "Valladolid"
-            }
-        ],
-        "id": "Real Valladolid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Valladolid"
-            }
-        ],
-        "id": "Real Valladolid",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Sevillistas"
-            }
-        ],
-        "id": "Sevilla",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Sevillistas"
-            }
-        ],
-        "id": "Sevilla",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Che"
-            }
-        ],
-        "id": "Valencia",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Che"
-            }
-        ],
-        "id": "Valencia",
-        "ignore_case": true
-    },
-    {
-        "label": "group",
-        "pattern": [
-            {
-                "TEXT": "Yellow"
+                "TEXT": "le"
             },
             {
-                "TEXT": "Submarine"
+                "TEXT": "Aquile"
             }
         ],
-        "id": "Villarreal",
+        "id": "SS Lazio",
         "ignore_case": true
     },
     {
         "label": "group",
         "pattern": [
             {
-                "TEXT": "YellowSubmarine"
+                "TEXT": "leAquile"
             }
         ],
-        "id": "Villarreal",
+        "id": "SS Lazio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Aquilotti"
+            }
+        ],
+        "id": "SS Lazio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Aquilotti"
+            }
+        ],
+        "id": "SS Lazio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "US"
+            },
+            {
+                "TEXT": "Lecce"
+            }
+        ],
+        "id": "US Lecce",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "USLecce"
+            }
+        ],
+        "id": "US Lecce",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Lecce"
+            }
+        ],
+        "id": "US Lecce",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Lecce"
+            }
+        ],
+        "id": "US Lecce",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "AC"
+            },
+            {
+                "TEXT": "Milan"
+            }
+        ],
+        "id": "AC Milan",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "ACMilan"
+            }
+        ],
+        "id": "AC Milan",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Milan"
+            }
+        ],
+        "id": "AC Milan",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Milan"
+            }
+        ],
+        "id": "AC Milan",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Rossoneri"
+            }
+        ],
+        "id": "AC Milan",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Rossoneri"
+            }
+        ],
+        "id": "AC Milan",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "AC"
+            },
+            {
+                "TEXT": "Monza"
+            }
+        ],
+        "id": "AC Monza",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "ACMonza"
+            }
+        ],
+        "id": "AC Monza",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Monza"
+            }
+        ],
+        "id": "AC Monza",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Monza"
+            }
+        ],
+        "id": "AC Monza",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "SSC"
+            },
+            {
+                "TEXT": "Napoli"
+            }
+        ],
+        "id": "SSC Napoli",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "SSCNapoli"
+            }
+        ],
+        "id": "SSC Napoli",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Napoli"
+            }
+        ],
+        "id": "SSC Napoli",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Napoli"
+            }
+        ],
+        "id": "SSC Napoli",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Partenopei"
+            }
+        ],
+        "id": "SSC Napoli",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Partenopei"
+            }
+        ],
+        "id": "SSC Napoli",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Parma"
+            },
+            {
+                "TEXT": "Calcio"
+            },
+            {
+                "TEXT": "1913"
+            }
+        ],
+        "id": "Parma Calcio 1913",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "ParmaCalcio1913"
+            }
+        ],
+        "id": "Parma Calcio 1913",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Parma"
+            }
+        ],
+        "id": "Parma Calcio 1913",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Parma"
+            }
+        ],
+        "id": "Parma Calcio 1913",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Parma"
+            },
+            {
+                "TEXT": "Calcio"
+            }
+        ],
+        "id": "Parma Calcio 1913",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "ParmaCalcio"
+            }
+        ],
+        "id": "Parma Calcio 1913",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "AS"
+            },
+            {
+                "TEXT": "Roma"
+            }
+        ],
+        "id": "AS Roma",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "ASRoma"
+            }
+        ],
+        "id": "AS Roma",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Roma"
+            }
+        ],
+        "id": "AS Roma",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Roma"
+            }
+        ],
+        "id": "AS Roma",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Torino"
+            },
+            {
+                "TEXT": "FC"
+            }
+        ],
+        "id": "Torino FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "TorinoFC"
+            }
+        ],
+        "id": "Torino FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Torino"
+            }
+        ],
+        "id": "Torino FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Torino"
+            }
+        ],
+        "id": "Torino FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Il"
+            },
+            {
+                "TEXT": "Toro"
+            }
+        ],
+        "id": "Torino FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "IlToro"
+            }
+        ],
+        "id": "Torino FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Udinese"
+            },
+            {
+                "TEXT": "Calcio"
+            }
+        ],
+        "id": "Udinese Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "UdineseCalcio"
+            }
+        ],
+        "id": "Udinese Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Udinese"
+            }
+        ],
+        "id": "Udinese Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Udinese"
+            }
+        ],
+        "id": "Udinese Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Zebras"
+            }
+        ],
+        "id": "Udinese Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Zebras"
+            }
+        ],
+        "id": "Udinese Calcio",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Venezia"
+            },
+            {
+                "TEXT": "FC"
+            }
+        ],
+        "id": "Venezia FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "VeneziaFC"
+            }
+        ],
+        "id": "Venezia FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Venezia"
+            }
+        ],
+        "id": "Venezia FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "Venezia"
+            }
+        ],
+        "id": "Venezia FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "arancioneroverdi"
+            }
+        ],
+        "id": "Venezia FC",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "arancioneroverdi"
+            }
+        ],
+        "id": "Venezia FC",
         "ignore_case": true
     }
 ]
