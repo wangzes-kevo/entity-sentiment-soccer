@@ -1,5 +1,5 @@
 from datasets import Dataset, DatasetDict
-from transformers import AutoModelForTokenClassification, AutoTokenizer, AutoModelForSequenceClassification
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import TrainingArguments, Trainer, DataCollatorWithPadding
 from ray import tune
 from sklearn.metrics import classification_report

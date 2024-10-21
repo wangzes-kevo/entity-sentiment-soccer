@@ -1,11 +1,19 @@
 import os
+import unicodedata
 
 def preprocess(text: str) -> str:
     new_text = []
     for t in text.split(" "):
         t = '@user' if t.startswith('@') and len(t) > 1 else t
         t = 'http' if t.startswith('http') else t
+        # remove accents (e.g., é -> e)
+        t = unicodedata.normalize('NFKD', t).encode(
+            encoding='ascii',
+            errors='ignore'
+        ).decode('utf-8')
+
         new_text.append(t)
+
     return " ".join(new_text)
 
 

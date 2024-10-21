@@ -262,7 +262,6 @@ class EntitySentimentModel:
             with open(path, "r") as json_file:
                 patterns = json.load(json_file)
             ruler.add_patterns(patterns)
-            ruler.add_patterns([{"label": "group", "pattern": "the gunners"}])
 
     def add_alias_handler(self):
         """
