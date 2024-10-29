@@ -10,7 +10,7 @@ import json
 class SentimentModel:
     def __init__(
         self,
-        model_name: str ='cardiffnlp/twitter-roberta-base-sentiment-latest'
+        model_name: str ='cardiffnlp/twitter-roberta-base-sentiment'
     ):
         self.model_name = model_name
         self.model = None
@@ -89,16 +89,19 @@ class SentimentModel:
                 num_labels=3
             )
 
-    def fine_tune(self, dataset: DatasetDict) -> None:
+    def fine_tune(self, dataset: DatasetDict, n_trials: int = 5) -> None:
         """
         fine-tune the model by parameter search
         :param dataset: Dataset containing train and validation
+        :param n_trials: number of configs to try in param search
         :return: None
         """
+        '''
         model = AutoModelForSequenceClassification.from_pretrained(
             self.model_name,
             num_labels=3
         )
+        '''
         data_collator = DataCollatorWithPadding(self.tokenizer, padding=True)
 
         # tokenize_data
@@ -111,6 +114,7 @@ class SentimentModel:
             logging_dir="./logs_sentiment",
             logging_steps=10,
             save_strategy="epoch",
+            seed=0
         )
 
         trainer = Trainer(
@@ -123,15 +127,18 @@ class SentimentModel:
 
         search_space = {
             "learning_rate": tune.loguniform(1e-5, 1e-4),
-            "num_train_epochs": tune.choice(list(range(1, 4))),
-            "per_device_train_batch_size": tune.choice([4, 8, 32])
+            "num_train_epochs": tune.choice(list(range(4, 9))),
+            "per_device_train_batch_size": tune.choice([8, 16]),
+            "weight_decay": tune.choice([1e-7]),
+            "gradient_accumulation_steps": tune.choice([1]),
+            "lr_warmup_step_ratio": tune.choice([0.3])
         }
         best_run = trainer.hyperparameter_search(
             direction="minimize",
             hp_space=lambda x: search_space,
-            n_trials=5,
+            n_trials=n_trials,
             backend="ray",
-            resources_per_trial={"cpu": 1, "gpu": 0}
+            resources_per_trial={"cpu": 0, "gpu": 1}
         )
 
         # save hyperparameters

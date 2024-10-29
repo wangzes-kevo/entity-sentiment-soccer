@@ -2,6 +2,7 @@ import os
 import unicodedata
 
 def preprocess(text: str) -> str:
+    text = text.replace('\n', ' ')
     new_text = []
     for t in text.split(" "):
         t = '@user' if t.startswith('@') and len(t) > 1 else t
