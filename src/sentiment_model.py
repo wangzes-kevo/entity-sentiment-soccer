@@ -126,7 +126,7 @@ class SentimentModel:
         )
 
         search_space = {
-            "learning_rate": tune.loguniform(1e-5, 1e-4),
+            "learning_rate": tune.loguniform(1e-6, 1e-4),
             "num_train_epochs": tune.choice(list(range(4, 9))),
             "per_device_train_batch_size": tune.choice([8, 16]),
             "weight_decay": tune.choice([1e-7]),
