@@ -125,20 +125,21 @@ class SentimentModel:
             eval_dataset=validation
         )
 
-        search_space = {
-            "learning_rate": tune.loguniform(1e-6, 1e-4),
-            "num_train_epochs": tune.choice(list(range(4, 9))),
-            "per_device_train_batch_size": tune.choice([8, 16]),
-            "weight_decay": tune.choice([1e-7]),
-            "gradient_accumulation_steps": tune.choice([1]),
-            "lr_warmup_step_ratio": tune.choice([0.3])
-        }
+        def optuna_hp_space(trial):
+            return {
+                "learning_rate": trial.suggest_loguniform("learning_rate", 1e-6, 1e-5),
+                "num_train_epochs": trial.suggest_int("num_train_epochs", 5, 10),
+                "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [16, 32]),
+                "weight_decay": trial.suggest_loguniform("weight_decay", 1e-6, 1e-4),
+                "gradient_accumulation_steps": trial.suggest_categorical("gradient_accumulation_steps", [1, 2]),
+                "warmup_ratio": trial.suggest_float("warmup_ratio", 0.0, 0.1),
+            }
+
         best_run = trainer.hyperparameter_search(
             direction="minimize",
-            hp_space=lambda x: search_space,
+            hp_space=optuna_hp_space,
             n_trials=n_trials,
-            backend="ray",
-            resources_per_trial={"cpu": 0, "gpu": 1}
+            backend="optuna"
         )
 
         # save hyperparameters

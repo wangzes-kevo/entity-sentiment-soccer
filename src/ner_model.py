@@ -232,11 +232,13 @@ class NERModel:
         report = classification_report(gold_labels_list, predictions_list)
         print(report)
 
-    def fine_tune(self, dataset: DatasetDict) -> None:
+    def fine_tune(self, dataset: DatasetDict, n_trials: int = 5) -> None:
         """
         fine-tune the model by parameter search
 
         :param dataset: Dataset containing train and validation
+        :param n_trials: number of configs to try in param search
+
         :return: None
         """
         model = AutoModelForTokenClassification.from_pretrained(
@@ -273,17 +275,21 @@ class NERModel:
             eval_dataset=validation
         )
 
-        search_space = {
-            "learning_rate": tune.loguniform(1e-5, 5e-5),
-            "num_train_epochs": tune.choice(list(range(1, 3))),
-            "per_device_train_batch_size": tune.choice([4])
-        }
+        def optuna_hp_space(trial):
+            return {
+                "learning_rate": trial.suggest_loguniform("learning_rate", 1e-5, 5e-5),
+                "num_train_epochs": trial.suggest_int("num_train_epochs", 5, 10),
+                "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [16, 32]),
+                "weight_decay": trial.suggest_loguniform("weight_decay", 1e-6, 1e-4),
+                "gradient_accumulation_steps": trial.suggest_categorical("gradient_accumulation_steps", [1, 2]),
+                "warmup_ratio": trial.suggest_float("warmup_ratio", 0.0, 0.1),
+            }
+
         best_run = trainer.hyperparameter_search(
             direction="minimize",
-            hp_space=lambda x: search_space,
-            n_trials=5,
-            backend="ray",
-            resources_per_trial={"cpu": 1, "gpu": 0},
+            hp_space=optuna_hp_space,
+            n_trials=n_trials,
+            backend="optuna",
             reuse_actors=False
         )
 
