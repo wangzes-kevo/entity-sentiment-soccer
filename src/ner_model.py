@@ -6,6 +6,7 @@ from sklearn.metrics import classification_report
 import torch
 import json
 from TorchCRF import CRF
+from torch.nn.utils.rnn import pad_sequence
 
 
 class NERModel:
@@ -277,9 +278,9 @@ class NERModel:
 
         def optuna_hp_space(trial):
             return {
-                "learning_rate": trial.suggest_loguniform("learning_rate", 1e-5, 5e-5),
-                "num_train_epochs": trial.suggest_int("num_train_epochs", 5, 10),
-                "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [16, 32]),
+                "learning_rate": trial.suggest_loguniform("learning_rate", 1e-6, 1e-4),
+                "num_train_epochs": trial.suggest_int("num_train_epochs", 4, 8),
+                "per_device_train_batch_size": trial.suggest_categorical("per_device_train_batch_size", [16, 32, 64]),
                 "weight_decay": trial.suggest_loguniform("weight_decay", 1e-6, 1e-4),
                 "gradient_accumulation_steps": trial.suggest_categorical("gradient_accumulation_steps", [1, 2]),
                 "warmup_ratio": trial.suggest_float("warmup_ratio", 0.0, 0.1),
@@ -289,8 +290,7 @@ class NERModel:
             direction="minimize",
             hp_space=optuna_hp_space,
             n_trials=n_trials,
-            backend="optuna",
-            reuse_actors=False
+            backend="optuna"
         )
 
         # save hyperparameters
@@ -331,10 +331,19 @@ class NERModel:
         """
         custom_data_collator for fine-tuning
         """
+        input_ids = [torch.tensor(f['input_ids']) for f in features]
+        attention_masks = [torch.tensor(f['attention_mask']) for f in features]
+        labels = [torch.tensor(f['labels']) for f in features]
+
+        # Dynamically pad sequences
+        padded_input_ids = pad_sequence(input_ids, batch_first=True, padding_value=0)
+        padded_attention_masks = pad_sequence(attention_masks, batch_first=True, padding_value=0)
+        padded_labels = pad_sequence(labels, batch_first=True, padding_value=-100)
+
         return {
-            'input_ids': torch.tensor([f['input_ids'] for f in features]),
-            'attention_mask': torch.tensor([f['attention_mask'] for f in features]),
-            'labels': torch.tensor([f['labels'] for f in features])
+            'input_ids': padded_input_ids,
+            'attention_mask': padded_attention_masks,
+            'labels': padded_labels
         }
 
     def _tokenize(self, batch, label2id):
