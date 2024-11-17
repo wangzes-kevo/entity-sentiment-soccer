@@ -702,6 +702,29 @@
         "label": "group",
         "pattern": [
             {
+                "TEXT": "Man"
+            },
+            {
+                "TEXT": "UTD"
+            }
+        ],
+        "id": "Manchester United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
+                "TEXT": "ManUTD"
+            }
+        ],
+        "id": "Manchester United",
+        "ignore_case": true
+    },
+    {
+        "label": "group",
+        "pattern": [
+            {
                 "TEXT": "Red"
             },
             {
