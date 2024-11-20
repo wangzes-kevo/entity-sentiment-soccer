@@ -31,7 +31,7 @@ class EntitySentimentModel:
     def __init__(
         self,
         ner_model_name: str = 'tner/roberta-base-tweetner7-all',
-        sentiment_model_name: str = 'cardiffnlp/twitter-roberta-base-sentiment-latest',
+        sentiment_model_name: str = 'cardiffnlp/twitter-roberta-base-sentiment',
         is_fine_tuned_ner: bool = False,
         is_fine_tuned_sentiment: bool = False,
         use_crf: bool = True,
@@ -151,14 +151,14 @@ class EntitySentimentModel:
                 entity_sentiment_summary[entity][id2label[avg_sentiment]] += 1
                 entity_sentiment_summary[entity]["total"] += 1
 
-        # Get top 5
-        top5 = sorted(
+        # Get top k
+        topk = sorted(
             entity_sentiment_summary.items(),
             key=lambda x: x[1]["total"],
             reverse=True
-        )[:5]
-        # Print top 5
-        for entity_sentiment in top5:
+        )[:10]
+        # Print top k
+        for entity_sentiment in topk:
             print(entity_sentiment)
 
         print("Finished analyzing!")
@@ -241,7 +241,6 @@ class EntitySentimentModel:
 
         self.nlp.add_pipe(factory_name="custom_sentiment_model", last=True)
 
-    # TODO: add extra patterns
     def add_entity_ruler(
         self,
         pattern_paths: list[str]
@@ -257,7 +256,7 @@ class EntitySentimentModel:
                 "overwrite_ents": True
             }
         )
-        # Some example patterns
+
         for path in pattern_paths:
             with open(path, "r") as json_file:
                 patterns = json.load(json_file)

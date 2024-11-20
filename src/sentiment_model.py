@@ -89,6 +89,9 @@ class SentimentModel:
                 num_labels=3
             )
 
+        self.model.config.label2id = {'negative': 0, 'neutral': 1, 'positive': 2}
+        self.model.config.id2label = {v: k for k, v in self.model.config.label2id.items()}
+
     def fine_tune(self, dataset: DatasetDict, n_trials: int = 5) -> None:
         """
         fine-tune the model by parameter search
