@@ -12,3 +12,6 @@ graph LR
     F --> G[/Entity-Level Sentiment/]
     D --> E
 ```
+
+The fine-tuned NER model is on [wangzes-kevo/soccer-tweet-ner](https://huggingface.co/wangzes-kevo/soccer-tweet-ner).\
+The fine-tuned sentiment model is on [wangzes-kevo/soccer-tweet-sentiment](https://huggingface.co/wangzes-kevo/soccer-tweet-sentiment).
