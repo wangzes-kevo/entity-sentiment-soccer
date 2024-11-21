@@ -6,7 +6,8 @@ import emoji
 def preprocess(text: str) -> str:
     """
     preprocess the raw tweet before feeding into the model
-
+    modified from https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment
+    
     :param text: input text to process
     :return: cleaned text
     """
