@@ -73,13 +73,13 @@ class SentimentModel:
         )
         print(report)
 
-    def load_model(self, is_fine_tuned: bool) -> None:
+    def load_model(self, is_local: bool) -> None:
         """
         load model
-        :param is_fine_tuned: if true, load the fine-tuned model
+        :param is_local: if true, load the local fine-tuned model
         :return: None
         """
-        if is_fine_tuned:
+        if is_local:
             self.model = AutoModelForSequenceClassification.from_pretrained(
                 '../models/ckpt_sentiment/best_model'
             )

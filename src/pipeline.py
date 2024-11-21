@@ -32,32 +32,32 @@ class EntitySentimentModel:
         self,
         ner_model_name: str = 'tner/roberta-base-tweetner7-all',
         sentiment_model_name: str = 'cardiffnlp/twitter-roberta-base-sentiment',
-        is_fine_tuned_ner: bool = False,
-        is_fine_tuned_sentiment: bool = False,
+        is_local_ner: bool = False,
+        is_local_sentiment: bool = False,
         use_crf: bool = True,
         half_window_size: int = 20
     ):
         """
         :param ner_model_name: model name for NER
         :param sentiment_model_name: model name for Sentiment Analysis
-        :param is_fine_tuned_ner: Use local fine-tuned version or not
-        :param is_fine_tuned_sentiment: Use local fine-tuned version or not
+        :param is_local_ner: Use local fine-tuned version or not
+        :param is_local_sentiment: Use local fine-tuned version or not
         :param use_crf: use CRF layer or not
         :param half_window_size: half_window_size for the window to get relevant context
         """
         # NER
         self.ner_model_name = ner_model_name
-        self.use_fine_tuned_ner = is_fine_tuned_ner
+        self.use_fine_tuned_ner = is_local_ner
         self.ner_model = NERModel(model_name=ner_model_name)
-        self.ner_model.load_model(is_fine_tuned=is_fine_tuned_ner)
+        self.ner_model.load_model(is_local=is_local_ner)
         self.use_crf = use_crf
         self.half_window_size = half_window_size
 
         # Sentiment
         self.sentiment_model_name = sentiment_model_name
-        self.is_fine_tuned_sentiment = is_fine_tuned_sentiment
+        self.is_fine_tuned_sentiment = is_local_sentiment
         self.sentiment_model = SentimentModel(model_name=sentiment_model_name)
-        self.sentiment_model.load_model(is_fine_tuned_sentiment)
+        self.sentiment_model.load_model(is_local=is_local_sentiment)
 
         # pipeline
         self.nlp = None

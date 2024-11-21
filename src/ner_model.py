@@ -307,14 +307,14 @@ class NERModel:
         trainer.save_model('../models/ckpt_ner/best_model')
         # self.model = trainer.model
 
-    def load_model(self, is_fine_tuned: bool) -> None:
+    def load_model(self, is_local: bool) -> None:
         """
         load model & setting up self.num_labels and self.crf
 
-        :param is_fine_tuned: if true, load the fine-tuned model
+        :param is_local: if true, load the fine-tuned model
         :return: None
         """
-        if is_fine_tuned:
+        if is_local:
             self.model = AutoModelForTokenClassification.from_pretrained(
                 '../models/ckpt_ner/best_model'
             )
